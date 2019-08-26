@@ -1,0 +1,70 @@
+/* in case we want a vertical nav bar we apply the following
+	#navbar {
+		flex-direction:column;
+		
+	}
+	#navbar .logo {
+		text-align:center;
+		padding:0.5rem;
+	}
+	#navbar ul{
+		flex-direction:column;
+		padding:0.5rem;
+		text-align:center;
+	
+	}
+	#navbar ul li {
+		padding:1rem;
+		border:5px solid green;
+		align-self:stretch;
+	}
+	#navbar ul li a {
+		display:block;
+	}
+
+*/
+
+
+/*horizontal navbar*/
+	#navbar {
+		flex-direction:column;
+		justify-content:center;
+	}
+	#navbar .logo {
+		text-align:center;
+		padding:0.75rem 0.5rem;
+	}
+	#navbar ul{
+		padding:0.5rem;
+		text-align:center;
+		justify-content:center;
+	}    		
+
+
+/**/
+#items {
+Flex-direction:column;
+}
+
+/**/
+.who-img{
+display:none;
+}
+
+/*clients*/
+#logo5 {
+display : none;
+}
+
+
+/*contact*/
+#contact {
+Flex-direction:column;
+}
+
+.map {
+Height:300px;
+Border:4px solid #333;
+}
+
+/* in this case i wanted to put the map before the contact-form so i used order ...of course removing order resets everything to normal */
